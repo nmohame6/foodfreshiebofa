@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Freshie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #FFFFFF;
+            text-align: left;
+            font-size: 32px;
+            font-weight: normal;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #FFF;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #000;
+            align-items: right;
+        }
+        .hero {
+            font-weight: normal;
+            font-size: 13px;
+            background: #1D6001;
+            color: #FFF;
+            text-align: center;
+            padding: 50px;
+            margin: 0px;
+        }
+        .info, .community, .help, .cta {
+            padding: 50px;
+            text-align: left;
+        }
+        .community img {
+            max-width: 100%;
+            height: auto;
+        }
+        .cta .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .cta button {
+            font-family: 'Poppins', sans-serif;
+            background: #1D6001;
+            color: #FFF;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 32px;
+        }
+        .cta button:hover {
+            background: #145000;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <img height = 100 src="small_logo.jpg"> 
+        <ul class="nav-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Application</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </nav>
+    
+    <center><img size = "20%" src="big_logo.jpg"></center>
+    <header class="hero">
+        <h1>Where we believe even though life is hectic, eating shouldn’t be. Fresh, Delivered, FREE. Nourishing UNC Charlotte, One Meal at a Time!
+    </header>
+    
+    <section class="info">
+        <h2>Did You Know?</h2>
+        <p>An estimated 23 percent of college students (3.8 million) experienced food insecurity in 2020, according to GAO's analysis of student data from the Department of Education's National Postsecondary Student Aid Study (NPSAS).
+        </p>
+        </p>Our goal is to do our part to alleviate the burden that food insecurity to students attending UNC Charlotte.</p>
+    </section>
+    
+    <section class="community">
+        <h2 style="text-align: center;">Community. Unity. Building Better Bridges.</h2>
+        <img class="centered-image" src="https://img.freepik.com/free-vector/tiny-people-standing-near-box-donation-food-delivery-volunteers-giving-healthy-grocery-goods-charity-flat-vector-illustration-social-support-humanitarian-help-community-sharing-concept_74855-21023.jpg" alt="Community Food Donations">
+    </section>
+    
+    <section class="help">
+        <h2>Help us help you.</h2>
+        <p>Whether you’re a student struggling to find your next meal, a member of the community who wants to be a part of something greater, or a business with excess food waste.</p>
+    </section>
+    
+    <section class="cta">
+        <h2 style="text-align: center;">Ready to dig in?</h2>
+        <div class="buttons">
+            <button>Sign Up</button>
+            <button>Learn More</button>
+            <button>Volunteer</button>
+        </div>
+    </section>
+</body>
+</html>
